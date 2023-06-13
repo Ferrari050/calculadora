@@ -1,0 +1,102 @@
+body{
+    color: #fff;
+    background-image: radial-gradient(#4169e1, #111111);
+    min-height: 1000px;
+}
+
+header{
+    min-width: 400px;
+    display: flex;
+    justify-content:space-around;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.assinatura{
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    text-align: center;
+    flex-direction: row;
+    vertical-align: center;
+
+}
+
+.linkedin-icon{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #000;
+    border-radius: 100%;
+}
+
+main{
+    background-color: #282726;
+    width: 400px;
+    height: 535px;
+    border-radius: 15px;
+}
+
+table{
+    gap: 15px;
+}
+
+tr{
+    gap: 15px;
+}
+
+td{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+}
+
+button{
+    width: 80px;
+    height: 70px;
+    font-size: 30px;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    font-weight: bold
+}
+
+button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgb(190, 179, 165);
+    transform: scale(1.05);
+}
+
+.meu-nome{
+    padding-top: 7px;
+    padding-left: 4px;
+}
+
+.resultado{
+    padding-top: 15px;
+}
+
+.tela-resultado{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 15px;
+    color: #000;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 80px;
+    padding-right: 8px;
+    justify-content: right;
+}
+
+.teclado-numerico{
+    padding-top: 15px;
+}
+
+#resultado-numerico{
+    font-size: 40px;
+}
+
+.botao-duas-celulas{
+    width: 170px;
+}
